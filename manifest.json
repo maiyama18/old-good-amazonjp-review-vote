@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "amazonjp-review-denominator",
+  "name": "old-good-amazonjp-review-vote",
   "version": "0.0.1",
   "description": "amazon.co.jpにおけるレビュー評価のフォーマットを'M人のお客様がこれが役に立ったと考えています.'から'N 人中、M人の方が、｢このレビューが参考になった｣と投票しています。'に変更します",
 

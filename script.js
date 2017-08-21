@@ -10,13 +10,11 @@ function convertVoteTexts(reviewQuery, linkQuery, defaultVoteTextQuery, helpfulV
     var $this = $(this)
 
     var reviewPageUrl = $this.find(linkQuery).attr('href')
-    console.log(reviewPageUrl)
     $.ajax({
       url: reviewPageUrl,
       type: 'GET',
     }).done(function(data) {
       var helpfulVoteText = $(data).find(helpfulVoteTextQuery).text()
-      console.log(helpfulVoteText)
       $this.find(defaultVoteTextQuery).text(helpfulVoteText)
     })
   })
