@@ -14,4 +14,4 @@ amazon.co.jpにおけるレビュー評価のフォーマットを
 
 # 使い方
 
-{release]ページから`.crx`ファイルをダウンロードして、`chrome://extensions`にドラッグ&ドロップしてください。
+[release](https://github.com/tofumoji/old-good-amazonjp-review-vote/releases)から`.crx`ファイルをダウンロードして、`chrome://extensions`にドラッグ&ドロップしてください。
